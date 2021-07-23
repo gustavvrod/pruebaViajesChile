@@ -58,7 +58,7 @@ h5 {
 }
 
 
-/*seccion destacados toggle class elementos */
+/*seccion destacados toggle class componente titulo-informacion*/
 
 .flexbox {
     display: flex;
@@ -78,7 +78,7 @@ h5 {
 }
 
 
-/*decoración iconos footer*/
+/* footer decoración iconos*/
 
 #footer i {
     color: white;
