@@ -1,13 +1,32 @@
-html {
+body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+h1,
+h3,
+h5 {
+    font-weight: 600;
 }
 
 .logo {
     width: 30px;
 }
 
-#quienes-somos,
+#quienes-somos {
+    background-color: black;
+    color: white;
+    padding-top: 7%;
+}
+
 #destacados {
     background-color: black;
     color: white;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#destacados .card {
+    margin-top: 10%;
+    margin-bottom: 10%;
 }

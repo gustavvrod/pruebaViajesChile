@@ -50,7 +50,7 @@
     <!--carousel-->
     <section>
         <div id="carouselControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
+            <div class="carousel-inner bg-dark">
                 <div class="carousel-item active">
                     <img src="assets\img\carousel1.jpg" class="d-block w-100">
                 </div>
@@ -74,7 +74,7 @@
 
     <!--presentacion-->
     <section id="quienes-somos">
-        <div class="container py-4">
+        <div class="container py-4 d-none d-md-block">
             <h3 class="text-center"> ¿Quienes somos?</h3>
             <hr class="bg-info ">
             <div class="row ">
@@ -103,43 +103,47 @@
 
     <!--destacados-->
     <section id="destacados">
-        <div class="container py-4">
+        <div class="container">
             <h3 class="text-center">Destacados</h3>
             <hr class="bg-info">
-            <div class="card-deck row">
-                <div class="col-3">
-                    <div class="card 100-vh">
-                        <img src="assets\img\card1.jpg" class="card-img-top" alt="card1">
-                        <div class="card-body bg-info ">
-                            <h5 class="card-title ">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            <div class="row">
+                <div class="card-deck">
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets\img\card1.jpg" class="card-img-top" alt="card1">
+                            <div class="card-body bg-info ">
+                                <h5 class="card-title ">Lorem ipsum dolor</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo necessitatibus nulla dolor, accusamus facere autem assumenda iure obcaecati, laborum quo quos voluptas a unde aliquam facilis nesciunt suscipit! Ea, vero?</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class=" col-3">
-                    <div class="card">
-                        <img src="assets\img\card2.jpg" class="card-img-top" alt="card2">
-                        <div class="card-body bg-info">
-                            <h5 class="card-title ">Card title</h5>
-                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets\img\card2.jpg" class="card-img-top" alt="card2">
+                            <div class="card-body bg-info">
+                                <h5 class="card-title ">Lorem ipsum dolor</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptate at libero rem quis enim perspiciatis eum cupiditate aut harum cum aliquam sunt iusto repudiandae.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-3">
-                    <div class="card">
-                        <img src="assets\img\card3.jpg" class="card-img-top" alt="card3">
-                        <div class="card-body bg-info">
-                            <h5 class="card-title ">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets\img\card3.jpg" class="card-img-top" alt="card3">
+                            <div class="card-body bg-info">
+                                <h5 class="card-title ">Deserunt fuga dolorem reiciendis.</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis distinctio mollitia voluptate veniam iusto dicta aliquam sunt quidem earum dolore provident exercitationem voluptas, rerum animi.</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class=" col-3">
-                    <div class="card">
-                        <img src="assets\img\card4.jpg" class="card-img-top" alt="card4">
-                        <div class="card-body bg-info">
-                            <h5 class="card-title ">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                    <div class="col-sm-12 col-md-6 col-lg-3">
+                        <div class="card">
+                            <img src="assets\img\card4.jpg" class="card-img-top" alt="card4">
+                            <div class="card-body bg-info">
+                                <h5 class="card-title ">Voluptate accusamus illo quas earum.</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, repellendus cum? Omnis ipsam perspiciatis pariatur autem odio, amet quibusdam sequi dolor! Voluptatem enim doloremque dolor sequi minima dolorem doloribus
+                                    quisquam.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -149,32 +153,49 @@
 
     <!--formulario-->
     <form id="contacto" action="typeform">
-        <div class="typeform-widget" data-url="https://form.typeform.com/to/u1n2aFTw?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
-        <script>
-            (function() {
-                var qs, js, q, s, d = document,
-                    gi = d.getElementById,
-                    ce = d.createElement,
-                    gt = d.getElementsByTagName,
-                    id = "typef_orm",
-                    b = "https://embed.typeform.com/";
-                if (!gi.call(d, id)) {
-                    js = ce.call(d, "script");
-                    js.id = id;
-                    js.src = b + "embed.js";
-                    q = gt.call(d, "script")[0];
-                    q.parentNode.insertBefore(js, q)
-                }
-            })()
-        </script>
+        <div class="container py-4">
+            <div class="row justify-content-center">
+                <div class="col-10">
+                    <div class="typeform-widget" data-url="https://form.typeform.com/to/u1n2aFTw?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
+                    <script>
+                        (function() {
+                            var qs, js, q, s, d = document,
+                                gi = d.getElementById,
+                                ce = d.createElement,
+                                gt = d.getElementsByTagName,
+                                id = "typef_orm",
+                                b = "https://embed.typeform.com/";
+                            if (!gi.call(d, id)) {
+                                js = ce.call(d, "script");
+                                js.id = id;
+                                js.src = b + "embed.js";
+                                q = gt.call(d, "script")[0];
+                                q.parentNode.insertBefore(js, q)
+                            }
+                        })();
+                    </script>
+                </div>
+            </div>
+        </div>
     </form>
 
     <!--footer-->
     <footer>
-        <div class="card">
-            <div class="card-header">
-                <h1> Viajes Chile</h1>
+        <div class="card bg-info text-white">
+            <div class="d-flex mx-4">
+                <div class="col-5">
+                    <h1> Viajes Chile</h1>
+                </div>
+                <div class="col-7 text-right">
+                    <i class="fab fa-github-square fa-3x"></i>
+                    <i class="fab fa-instagram-square fa-3x"></i>
+                    <i class="fab fa-twitter-square fa-3x"></i>
+                    <i class="fab fa-facebook-square fa-3x"></i>
+
+                </div>
             </div>
+
+        </div>
     </footer>
 
     <!--jquery-3.6.0.min-->
