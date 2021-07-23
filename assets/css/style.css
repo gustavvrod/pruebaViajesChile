@@ -1,7 +1,12 @@
+/*fuente para todo el body*/
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
+
+
+/*fuente con peso 600 para títulos*/
 
 h1,
 h3,
@@ -9,15 +14,24 @@ h5 {
     font-weight: 600;
 }
 
+
+/*logo navbar*/
+
 .logo {
     width: 30px;
 }
+
+
+/*sección quienes somos propiedades*/
 
 #quienes-somos {
     background-color: black;
     color: white;
     padding-top: 7%;
 }
+
+
+/*sección destacados propiedades*/
 
 #destacados {
     background-color: black;
@@ -26,7 +40,46 @@ h5 {
     padding-bottom: 7%;
 }
 
+
+/*seccion destacados card's propiedades*/
+
 #destacados .card {
     margin-top: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
+}
+
+
+/* destacados img*/
+
+#destacados .card-img {
+    vertical-align: middle;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+/*seccion destacados toggle class elementos */
+
+.flexbox {
+    display: flex;
+    align-items: stretch;
+}
+
+.hidden {
+    display: block;
+}
+
+
+/*sección contacto*/
+
+#contacto {
+    background-color: black;
+    color: white;
+}
+
+
+/*decoración iconos footer*/
+
+#footer i {
+    color: white;
 }

@@ -10,7 +10,7 @@
     <meta name="description" content="Sitio web Viaje Chile">
     <!--bootstrap 4.6.0-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <!--font-->
+    <!--fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
@@ -24,7 +24,7 @@
 
 <body>
     <nav class="navbar fixed-top mx-5 navbar-expand-md navbar-dark">
-        <a class="navbar-brand" href="#"> <img src="assets\img\viajes.svg" alt="logo" class="logo"> Viajes Chile</a>
+        <a class="navbar-brand" href="#carousel"> <img src="assets\img\viajes.svg" alt="logo" class="logo"> Viajes Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -32,9 +32,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-4 ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#carousel">Inicio <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item d-none d-md-block">
                     <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
@@ -48,17 +48,17 @@
     </nav>
 
     <!--carousel-->
-    <section>
-        <div id="carouselControls" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner bg-dark">
+    <section id="carousel">
+        <div id="carouselControls" class="carousel slide bg-dark" data-ride="carousel">
+            <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="assets\img\carousel1.jpg" class="d-block w-100">
+                    <img src="assets\img\carousel1.jpg" class="d-block w-100" alt="carousel1">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets\img\carousel2.jpg" class="d-block w-100">
+                    <img src="assets\img\carousel2.jpg" class="d-block w-100" alt="carousel2">
                 </div>
                 <div class="carousel-item">
-                    <img src="assets\img\carousel3.jpg" class="d-block w-100">
+                    <img src="assets\img\carousel3.jpg" class="d-block w-100" alt="carousel3">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
@@ -70,6 +70,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
     </section>
 
     <!--presentacion-->
@@ -82,10 +83,14 @@
                     <div>
                         <i class="fas fa-plane fa-2x bg-info col-12 text-center py-2 my-2"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum facilis esse amet quos ad autem excepturi beatae dolor minima non? Alias accusantium dolor sapiente! Officia perferendis quae accusamus maiores cupiditate.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum facilis esse amet quos ad autem excepturi beatae dolor minima non? Alias accusantium dolor sapiente! Officia perferendis quae accusamus maiores cupiditate. Nunc sodales
+                        quam ut mauris tincidunt, a cursus est elementum. Sed ac risus magna. Suspendisse sollicitudin placerat sem ac dignissim. Duis imperdiet urna quis leo ultrices, non tempor metus interdum. Morbi vulputate dui nec ligula gravida,
+                        sit amet dapibus tellus gravida. Mauris eget posuere diam. </p>
                 </div>
                 <div class="col-4">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum facilis esse amet quos ad autem excepturi beatae dolor minima non? Alias accusantium dolor sapiente! Officia perferendis quae accusamus maiores cupiditate.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum facilis esse amet quos ad autem excepturi beatae dolor minima non? Alias accusantium dolor sapiente! Officia perferendis quae accusamus maiores cupiditate. Nunc sodales
+                        quam ut mauris tincidunt, a cursus est elementum. Sed ac risus magna. Suspendisse sollicitudin placerat sem ac dignissim. Duis imperdiet urna quis leo ultrices, non tempor metus interdum. Morbi vulputate dui nec ligula gravida,
+                        sit amet dapibus tellus gravida. Mauris eget posuere diam. </p>
                     <div>
                         <i class="fas fa-mountain fa-2x bg-info col-12 text-center py-2 my-2"></i>
                     </div>
@@ -94,7 +99,9 @@
                     <div>
                         <i class="fas fa-route fa-2x bg-info col-12 text-center py-2 my-2"></i>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum facilis esse amet quos ad autem excepturi beatae dolor minima non? Alias accusantium dolor sapiente! Officia perferendis quae accusamus maiores cupiditate.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum facilis esse amet quos ad autem excepturi beatae dolor minima non? Alias accusantium dolor sapiente! Officia perferendis quae accusamus maiores cupiditate. Nunc sodales
+                        quam ut mauris tincidunt, a cursus est elementum. Sed ac risus magna. Suspendisse sollicitudin placerat sem ac dignissim. Duis imperdiet urna quis leo ultrices, non tempor metus interdum. Morbi vulputate dui nec ligula gravida,
+                        sit amet dapibus tellus gravida. Mauris eget posuere diam. </p>
                 </div>
             </div>
         </div>
@@ -107,53 +114,57 @@
             <h3 class="text-center">Destacados</h3>
             <hr class="bg-info">
             <div class="row">
-                <div class="card-deck">
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="card">
-                            <img src="assets\img\card1.jpg" class="card-img-top" alt="card1">
-                            <div class="card-body bg-info ">
-                                <h5 class="card-title ">Lorem ipsum dolor</h5>
-                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo necessitatibus nulla dolor, accusamus facere autem assumenda iure obcaecati, laborum quo quos voluptas a unde aliquam facilis nesciunt suscipit! Ea, vero?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="card">
-                            <img src="assets\img\card2.jpg" class="card-img-top" alt="card2">
-                            <div class="card-body bg-info">
-                                <h5 class="card-title ">Lorem ipsum dolor</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit voluptate at libero rem quis enim perspiciatis eum cupiditate aut harum cum aliquam sunt iusto repudiandae.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="card">
-                            <img src="assets\img\card3.jpg" class="card-img-top" alt="card3">
-                            <div class="card-body bg-info">
-                                <h5 class="card-title ">Deserunt fuga dolorem reiciendis.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis distinctio mollitia voluptate veniam iusto dicta aliquam sunt quidem earum dolore provident exercitationem voluptas, rerum animi.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6 col-lg-3">
-                        <div class="card">
-                            <img src="assets\img\card4.jpg" class="card-img-top" alt="card4">
-                            <div class="card-body bg-info">
-                                <h5 class="card-title ">Voluptate accusamus illo quas earum.</h5>
-                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, repellendus cum? Omnis ipsam perspiciatis pariatur autem odio, amet quibusdam sequi dolor! Voluptatem enim doloremque dolor sequi minima dolorem doloribus
-                                    quisquam.
-                                </p>
-                            </div>
+                <div class="flexbox col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets\img\card1.jpg" class="card-img" alt="card1">
+                        <div class="card-body bg-info">
+                            <h5 class="card-title" data-card="card1" data-toggle="tooltip" data-placement="top" title="Haz click en el titulo para más información">Lorem ipsum dolor</h5>
+                            <p id="card1" class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo necessitatibus nulla dolor, accusamus facere autem assumenda iure obcaecati, laborum quo quos voluptas a unde aliquam facilis nesciunt suscipit! Ea, vero?</p>
                         </div>
                     </div>
                 </div>
+                <div class="flexbox col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets\img\card2.jpg" class="card-img" alt="card2">
+                        <div class="card-body bg-info">
+                            <h5 class="card-title" data-card="card2" data-toggle="tooltip" data-placement="top" title="Haz click en el titulo para más información">Lorem ipsum dolor</h5>
+                            <p id="card2" class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo necessitatibus nulla dolor, accusamus facere autem assumenda iure obcaecati, laborum quo quos voluptas a unde aliquam facilis nesciunt suscipit! Ea, vero?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets\img\card3.jpg" class="card-img" alt="card3">
+                        <div class="card-body bg-info">
+                            <h5 class="card-title" data-card="card3" data-toggle="tooltip" data-placement="top" title="Haz click en el titulo para más información">Deserunt fuga dolorem reiciendis.</h5>
+                            <p id="card3" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis distinctio mollitia voluptate veniam iusto dicta aliquam sunt quidem earum dolore provident exercitationem voluptas, rerum animi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flexbox col-sm-12 col-md-6 col-lg-3">
+                    <div class="card">
+                        <img src="assets\img\card4.jpg" class="card-img" alt="card4">
+                        <div class="card-body bg-info">
+                            <h5 class="card-title" data-card="card4" data-toggle="tooltip" data-placement="top" title="Haz click en el titulo para más información">Voluptate accusamus illo quas earum.</h5>
+                            <p id="card4" class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, repellendus cum? Omnis ipsam perspiciatis pariatur autem odio, amet quibusdam sequi dolor! Voluptatem enim doloremque dolor sequi minima dolorem doloribus quisquam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
+
+
+
+
     </section>
 
     <!--formulario-->
     <form id="contacto" action="typeform">
         <div class="container py-4">
+            <h3 class="text-center">Contacto</h3>
+            <hr class="bg-info mb-4">
             <div class="row justify-content-center">
                 <div class="col-10">
                     <div class="typeform-widget" data-url="https://form.typeform.com/to/u1n2aFTw?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
@@ -180,21 +191,21 @@
     </form>
 
     <!--footer-->
-    <footer>
+    <footer id="footer">
         <div class="card bg-info text-white">
-            <div class="d-flex mx-4">
-                <div class="col-5">
-                    <h1> Viajes Chile</h1>
-                </div>
-                <div class="col-7 text-right">
-                    <i class="fab fa-github-square fa-3x"></i>
-                    <i class="fab fa-instagram-square fa-3x"></i>
-                    <i class="fab fa-twitter-square fa-3x"></i>
-                    <i class="fab fa-facebook-square fa-3x"></i>
-
+            <div class="container py-3">
+                <div class="row justify-content-between">
+                    <div class="col-5">
+                        <h1>VIAJES CHILE</h1>
+                    </div>
+                    <div class="col-7 text-right">
+                        <a href="https://github.com/" target="_blank"> <i class="fab mx-3 fa-github-square fa-3x"></i> </a>
+                        <a href="https://www.instagram.com/?hl=es" target="_blank"> <i class="fab mx-3 fa-instagram-square fa-3x"></i> </a>
+                        <a href="https://twitter.com/" target="_blank"> <i class="fab mx-3 fa-twitter-square fa-3x"></i> </a>
+                        <a href="https://www.facebook.com/" target="_blank"> <i class="fab mx-3 fa-facebook-square fa-3x"></i> </a>
+                    </div>
                 </div>
             </div>
-
         </div>
     </footer>
 
@@ -205,7 +216,7 @@
     <!--bootstrap 4.6.0-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js " integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF " crossorigin="anonymous "></script>
     <!--mi script-->
-    <script src="assets/js/script.js "></script>
+    <script src="assets\js\script.js"></script>
 </body>
 
 </html>
