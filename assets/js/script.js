@@ -19,10 +19,9 @@ $("#card4").hide();
 
 $("h5").on('click', function() {
     var cardId = $(this).attr('data-card');
-    $('#' + cardId).toggle(100);
-    $(function() {
-        $(".flexbox").toggleClass("hidden");
-    });
+    $(".flexbox").toggleClass("hidden");
+    $('#' + cardId).toggle(1000);
+
 });
 
 //tooltip "haz click para ver descripcion"
